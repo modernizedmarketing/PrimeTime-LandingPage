@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Time founding</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+      <div class="headerMenu">
+          <div class="menuItems">
+            <div class="menuMobile">
+              <img class="logo" src="./images/logo.png" alt="logo"/>
+            </div>
+                  
+            <div class="navigation">
+              <ul>
+                <li>Home</li>
+                <li><a href="#countDown">Countdown</a></li>
+                <li><a href="#tuneIn">Why tune In?</a></li>
+                <li><a href="#subscription">Subscription</a></li>
+              </ul>
+            </div>
+          </div>
+      </div>
+    </header>
+
+    <main>
+        <!-- Fist section -->
+      <section class="containerFirst containerColor" >
+        <div class="correctContainerFirst">
+          <div class="containerText">
+            <h1 id="purpleColor" class="mobile-size">PrimeTime:</h1>
+            <h1 class="mobile-size">The Firm For Traders, By Traders!</h1>
+          </div>
+          <div class="baseBackground">
+            <img class="imgBackground" src="./images/bg-purple.svg"/>
+
+            <div class="carrousel">
+              <div class="mySlides gallery-slideshow">
+                <img src="./images/mobile.png" class="imageSize gallery-slides" alt="Image-Carrousel"/>
+              </div>
+            </div>  
+            
+          </div>
+        </div>
+      </section>
+
+        <!-- Second section  -->
+        <section class="containerSecond" id="countDown">
+          <div class="getReady">
+            <h3 id="titleGetReady">Help Us Create the Firm You Want to Trade With!</h3>
+            <p id="paragraphOne">
+              What if you could create the perfect prop firm? Well, we want you to help us create it! Join PrimeTime today, 
+              to voice your ideas and help build the prop firm you want to be a part of. You’ll even get the chance to collaborate 
+              with Swaggy on a live call! 
+            </p>
+            <div class="containerClock">
+              <div class="clock">
+                <span id="eachDayClock">
+                  <p id="days" class="clockNumber">00</p>
+                  <p>Days</p>
+                </span>
+
+                <img id="vectorGap" src="./images/vector-gap.png" alt="gap"/>
+                <span id="eachDayClock">
+                  <p id="hours" class="clockNumber">00</p>
+                  <p>Hours</p>
+                </span>
+
+                <img id="vectorGap" src="./images/vector-gap.png" alt="gap"/>
+                <span id="eachDayClock">
+                  <p id="mins" class="clockNumber">00</p>
+                  <p>Minutes</p>
+                </span>
+
+                <img id="vectorGap" src="./images/vector-gap.png" alt="gap"/>
+                <span id="eachDayClock">
+                  <p id="seconds" class="clockNumber">00</p>
+                  <p>Seconds</p>
+                </span>
+              </div> 
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Third section  -->
+        <section class="containerThird" id="tuneIn">
+          <div>
+            <div class="div-center">
+              <h3 class="textFont">
+                <span id="purpleColor">Why</span> 
+                Join?
+              </h3>
+            </div>
+           
+            <div class="correctContainerSecond">
+              <div class="container-textTwo">
+                <div class="dialogCheck">
+                  <div class="circle">
+                    <img id="iconSize" src="./images/icon _check circle.png" alt="icon-check"/>
+                  </div>
+                  <div class="containerDialog">
+                    <p><strong class="purple">For Traders, By Traders:</strong> Be part of the community that revolutionizes trading with a prop firm built for traders, by traders.</p>
+                  </div>
+                </div>
+                <div class="dialogCheck">
+                  <div class="circle">
+                    <img id="iconSize" src="./images/icon _check circle.png" alt="icon-check"/>
+                  </div>
+                  <div class="containerDialog">
+                    <p>
+                      <strong class="purple">Live Zoom with Swaggy:</strong> Collaborate with the community, ask questions, and build the future of trading.
+                    </p>
+                  </div>
+              </div>
+            </div>
+            <div>
+              <img class="imageSizeComputer" src="./images/computer.png" alt="computer"/>
+            </div>
+          </div>
+        </section>
+        <!-- Subscribe  -->
+        <section class="containerSubs" id="subscription">
+          <div class="subs">
+            <h2 id="titleSubs">
+              <span id="purpleColor">Ready to be Part</span> 
+              of Something Amazing?
+            </h2>
+            <p id="parContent">
+              Enter your email below and be part of trading’s bright future with Swaggy and PrimeTime Trading!
+            </p>
+            
+            <form  id="contactForm subscribeInput">
+              <input type="email" id="email" name="email" placeholder="Email">
+            </form>
+            <button  onclick="sendForm()" >Sign Me Up</button>
+          </div>
+        </section>
+    </main>
+
+    <footer class="containerFooter">
+      <div class="footerContent">
+        <img src="./images/logo-purple.png" alt="logo footer"/>
+        <p id="footerContent">
+          At Primetime Funding, we're not just another prop trading firm; we're your pathway to financial freedom, 
+          no matter your trading style.
+        </p>
+        <div class="social">
+          <div class="circleFooter">
+            <img id="socialIcon" src="./images/icon-discord.png" alt="discord icon"/>
+          </div>
+          <div class="circleFooter">
+            <img id="socialIcon" src="./images/icon-instagram.png" alt="instagram icon"/>
+          </div>
+          <div class="circleFooter">
+            <img id="socialIcon" src="./images/icon-twitter.png" alt="twitter icon"/>
+          </div>
+          <div class="circleFooter">
+            <img id="socialIcon" src="./images/icon-telegram.png" alt="telegram icon"/>
+          </div>
+        </div>
+        <div class="socialMedia">
+          <img id="iconEmail" src="./images/icon-email.png" alt="email icon"/>
+          <p>emailhere@gmail.com</p>
+        </div>
+        <p id="copyright">Copyright © 2023 Primetime Funding</p>
+      </div>
+    </footer>
+    
+</body>
+  <script src="script.js"></script>
+<!--   <script src="carrousel.js"></script> -->
+  <script src="subscribeEmail.js"></script>
+</html>

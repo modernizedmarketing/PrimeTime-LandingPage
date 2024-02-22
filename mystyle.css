@@ -122,9 +122,9 @@ li:hover {
 
 .imageSize {
   position: relative;
-  height: 500px;
+  height: 475px;
   max-width: 400px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .baseBackground {
